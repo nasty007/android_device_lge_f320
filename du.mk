@@ -11,9 +11,6 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
-# Copy product specific init script to mount SD card
-PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.g2.sdcard.rc:root/init.g2.sdcard.rc
-
 # Inherit device configuration
 $(call inherit-product, device/lge/f320/device.mk)
 
