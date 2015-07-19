@@ -20,7 +20,7 @@ $(call inherit-product, device/lge/g2-common/g2.mk)
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
--# Init files not shared with G2-common
+# Init files not shared with G2-common
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.g2.sdcard.rc:root/init.g2.sdcard.rc
 
